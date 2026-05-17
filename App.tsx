@@ -90,7 +90,7 @@ const App: React.FC = () => {
           </div>
           <div className="mt-12 flex flex-col items-center bg-gray-50/50 p-6 rounded-2xl border border-gray-100">
             <img 
-              src="./HRI_Analysis.png" 
+              src="./HRI_Analysis (1).png" 
               alt="Comprehensive Analysis of Human-Robot Interaction Dynamics" 
               className="w-full max-w-4xl rounded-xl shadow-sm" 
             />
