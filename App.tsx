@@ -29,7 +29,6 @@ const App: React.FC = () => {
           </p>
           <div className="mt-12 flex flex-col items-center bg-gray-50/50 p-6 rounded-2xl border border-gray-100">
             <img src="./ELSEIVER PAPER DIAGRAMS.png" alt="Figure 1: Main Concept" className="w-full max-w-4xl rounded-xl shadow-sm" />
-            <p className="mt-6 text-sm font-medium text-gray-500">Figure 1: Main Concept</p>
           </div>
         </Section>
 
@@ -63,7 +62,6 @@ const App: React.FC = () => {
           </div>
           <div className="mt-12 flex flex-col items-center bg-gray-50/50 p-6 rounded-2xl border border-gray-100">
             <img src="./ELSEIVER PAPER DIAGRAMS (1).png" alt="Figure 2: Proposed Methodology" className="w-full max-w-4xl rounded-xl shadow-sm" />
-            <p className="mt-6 text-sm font-medium text-gray-500">Figure 2: Proposed Methodology</p>
           </div>
         </Section>
 
