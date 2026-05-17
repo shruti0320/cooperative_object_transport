@@ -88,6 +88,24 @@ const App: React.FC = () => {
               </p>
             </div>
           </div>
+          <div className="mt-12 flex flex-col items-center bg-gray-50/50 p-6 rounded-2xl border border-gray-100">
+            <img 
+              src="./HRI_Analysis.png" 
+              alt="Comprehensive Analysis of Human-Robot Interaction Dynamics" 
+              className="w-full max-w-4xl rounded-xl shadow-sm" 
+            />
+            
+            <p className="mt-6 max-w-4xl text-sm text-gray-600 leading-relaxed text-justify">
+              <strong>Comprehensive Analysis of Human-Robot Interaction Dynamics.</strong> This figure presents a three-tiered analysis of the
+              interaction over time. <strong>(Top)</strong> The relationship between the robot’s MPC Cost (red) and the human’s adaptive Human Speed
+              (blue), which modulates in response to the robot-generated coordination signals. The velocity data is logged directly from the
+              simulation environment, representing the partner’s cooperative response to proactive and reactive feedback. <strong>(Middle)</strong> The core
+              feedback loop, illustrating the Human-Robot Distance (blue/red) and the responsive Average Robot Speed (green). The line
+              turns red when the safety distance threshold is breached. <strong>(Bottom)</strong> The resulting consequences on human behavior, plotting the
+              binary Human State (purple: 0 for Moving, 1 for Waiting) against the cumulative Path Progress (orange). The yellow shaded
+              areas explicitly highlight periods where the human is waiting for the robots.
+            </p>
+          </div>
         </Section>
         
       </main>
