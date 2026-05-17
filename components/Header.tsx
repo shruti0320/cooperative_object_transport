@@ -27,7 +27,7 @@ const Header: React.FC = () => {
           <a href="#results" className={navLinkClasses}>Results</a>
         </div>
         <div className="flex items-center justify-end space-x-2 flex-1">
-          <a href="#" className={`${buttonLinkClasses} bg-gray-900 hover:bg-gray-800 text-white`}>
+          <a href="./paper.pdf" target="_blank" rel="noopener noreferrer" className={`${buttonLinkClasses} bg-gray-900 hover:bg-gray-800 text-white`}>
             <PaperIcon />
             <span className="hidden sm:inline">Paper PDF</span>
           </a>
