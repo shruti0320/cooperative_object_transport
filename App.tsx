@@ -28,7 +28,7 @@ const App: React.FC = () => {
             The key to our framework is a new dynamic coordinated approach that enables successful task completion by the human-robot team. The constraints of the system, such as robot kinematics, rigid formation maintenance, and collision avoidance among the robots as well as with the obstacles achieved using Velocity Obstacle (VO) are incorporated directly in its NMPC. The robot team actively coordinates with the human partner by issuing signals to modulate their speed or pause the task in response to predicted task difficulty and safety-critical thresholds in complex, cluttered environments. The efficacy of the proposed method is validated across over 50 simulation trials in high-fidelity CoppeliaSim environments, achieving a 96% task completion rate compared to 18.2% for a baseline controller without coordination, demonstrating safe object transport, rigid formation maintenance, and robust human-partner tracking in cluttered environments.
           </p>
           <div className="mt-12 flex flex-col items-center bg-gray-50/50 p-6 rounded-2xl border border-gray-100">
-            <img src="/ELSEIVER PAPER DIAGRAMS.png" alt="Figure 1: Main Concept" className="w-full max-w-4xl rounded-xl shadow-sm" />
+            <img src="./ELSEIVER PAPER DIAGRAMS.png" alt="Figure 1: Main Concept" className="w-full max-w-4xl rounded-xl shadow-sm" />
             <p className="mt-6 text-sm font-medium text-gray-500">Figure 1: Main Concept</p>
           </div>
         </Section>
@@ -62,7 +62,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <div className="mt-12 flex flex-col items-center bg-gray-50/50 p-6 rounded-2xl border border-gray-100">
-            <img src="/ELSEIVER PAPER DIAGRAMS (1).png" alt="Figure 2: Proposed Methodology" className="w-full max-w-4xl rounded-xl shadow-sm" />
+            <img src="./ELSEIVER PAPER DIAGRAMS (1).png" alt="Figure 2: Proposed Methodology" className="w-full max-w-4xl rounded-xl shadow-sm" />
             <p className="mt-6 text-sm font-medium text-gray-500">Figure 2: Proposed Methodology</p>
           </div>
         </Section>
