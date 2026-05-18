@@ -106,6 +106,20 @@ const App: React.FC = () => {
               areas explicitly highlight periods where the human is waiting for the robots.
             </p>
           </div>
+          <div className="mt-16 flex flex-col items-center bg-gray-50/50 p-6 rounded-2xl border border-gray-100">
+            <div className="w-full max-w-4xl aspect-video rounded-xl overflow-hidden shadow-sm">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/9tzHAexQzZ8" 
+                title="Reactive Safety Supervision protocol" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen
+              ></iframe>
+            </div>
+            <p className="mt-6 text-sm font-medium text-gray-500">Video 1: Reactive Safety Supervision protocol</p>
+          </div>
         </Section>
         
       </main>
